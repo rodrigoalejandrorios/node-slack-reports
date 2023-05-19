@@ -1,0 +1,37 @@
+{
+  "name": "node-slack-reports",
+  "version": "1.0.0",
+  "description": "Library for report origanization based Slack Web Client",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "webpack --mode=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodrigoalejandrorios/node-slack-reports.git"
+  },
+  "keywords": [
+    "Slack",
+    "report",
+    "slack",
+    "web"
+  ],
+  "author": "Rodrigo Rios",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/web-api": "^6.8.1",
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.2.1",
+    "ts-loader": "^9.4.2",
+    "webpack": "^5.83.1",
+    "webpack-cli": "^5.1.1",
+    "webpack-node-externals": "^3.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/rodrigoalejandrorios/node-slack-reports/issues"
+  },
+  "homepage": "https://github.com/rodrigoalejandrorios/node-slack-reports#readme"
+}
