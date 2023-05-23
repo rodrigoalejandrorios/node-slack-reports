@@ -5,7 +5,7 @@ import { SlackChannels } from "../../shared/register.channels";
 import { EMOJIS } from "../../constant/emojis";
 
 /**
- * Error reporter for developers
+ * Error report for developers
  *
  * Example:
  *

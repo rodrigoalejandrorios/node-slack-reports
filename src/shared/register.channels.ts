@@ -6,7 +6,7 @@ export interface IRegisterChannel {
 }
 
 /**
- * Register your channels of Slack for this librery
+ * Register your Slack channels for this library
  * 
  *
  * ```ts

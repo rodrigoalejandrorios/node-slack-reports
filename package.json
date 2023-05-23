@@ -1,10 +1,12 @@
 {
   "name": "node-slack-reports",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Library for report origanization based Slack Web Client",
   "main": "dist/index.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest --config __test__/jest.config.json",
+    "test:dev":"jest --config __test__/jest.config.json --watchAll",
+    "test:coverage":"jest --config __test__/jest.config.json --coverage",
     "build": "webpack --mode=production"
   },
   "repository": {
@@ -25,10 +27,13 @@
   },
   "devDependencies": {
     "@types/node": "^20.2.1",
+    "terser-webpack-plugin": "^5.3.9",
     "ts-loader": "^9.4.2",
     "webpack": "^5.83.1",
     "webpack-cli": "^5.1.1",
-    "webpack-node-externals": "^3.0.0"
+    "webpack-node-externals": "^3.0.0",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.1.0"
   },
   "bugs": {
     "url": "https://github.com/rodrigoalejandrorios/node-slack-reports/issues"
